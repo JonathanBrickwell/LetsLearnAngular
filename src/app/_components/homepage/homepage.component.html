@@ -23,7 +23,7 @@
       <p>I hope you'll enjoy your time here & that this humble, yet enthusiastic website can offer you something useful.</p>
       <p>Cheers!</p>
     </div>
-</section>  
+</section>
 
 <!-- Page Content -->
 <div class="container">
@@ -37,7 +37,9 @@
             </a>
         </div>
         <div class="col-md-5">
-            <h3>{{ blog.id }} - {{ blog.name }}</h3>
+            <h3>
+                <a routerLink="/blog-post" (click)="getBlogID(blog.id)">{{ blog.id }} - {{ blog.name }}</a>
+            </h3>
             <p>{{  blog.content }}</p>
             <a class="btn btn-primary" href="#">View Project</a>
         </div>

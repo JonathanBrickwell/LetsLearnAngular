@@ -55,3 +55,17 @@ body {
     background-position: center;
     background-repeat: no-repeat;
   }
+
+.form-control {
+    color: #444;
+    border: none;
+    border-radius: 100px;
+    background-color: #fff;
+    padding: 5px 16px;
+    margin-left: 8px;
+    width: 180px;
+    max-width: 240px;
+    height: 50%;
+    -webkit-appearance: none;
+    transition: width .4s ease-in-out;
+}

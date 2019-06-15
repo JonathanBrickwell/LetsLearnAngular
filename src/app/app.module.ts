@@ -10,7 +10,8 @@ import { HttpClientModule } from '@angular/common/http';
 
 /* NGX Bootstrap Modules */
 import { BsDropdownModule } from 'ngx-bootstrap/dropdown';
-import { AboutComponent } from './_components/about/about.component'; 
+import { AboutComponent } from './_components/about/about.component';
+import { BlogPostComponent } from './_components/blog-post/blog-post.component'; 
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { AboutComponent } from './_components/about/about.component';
     HeaderComponent,
     FooterComponent,
     HomepageComponent,
-    AboutComponent
+    AboutComponent,
+    BlogPostComponent
   ],
   imports: [
     BrowserModule,
