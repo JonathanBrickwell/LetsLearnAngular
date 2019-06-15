@@ -2,6 +2,13 @@
     {
         "id": 1,
         "name": "Prvi blog",
-        "content": "Ovo je prvi blog, kao takav je ovakav. Biti će bolji."
+        "content": "Ovo je prvi blog, kao takav je ovakav. Biti će bolji.",
+        "bg": "../../../assets/img/blog-posts/welcome-post.jpg"
+    },
+    {
+        "id": 2,
+        "name": "Drugi blog",
+        "content": "Ovo je prvi blog, kao takav je ovakav. Biti će bolji.",
+        "bg": "../../../assets/img/blog-posts/2-bootstrap.jpg"
     }
 ]

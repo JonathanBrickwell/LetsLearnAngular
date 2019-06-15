@@ -13,8 +13,7 @@ body {
 }
 
 .navbar {
-    background-color: $navbar_background;
-
+    background-color: $navbar_background;;
 }
 
 .nav-link-inner {
@@ -48,7 +47,10 @@ body {
 .masthead {
     height: 100vh;
     min-height: 500px;
-    background-image: url('https://source.unsplash.com/BtbjCFUvBXs/1920x1080');
+    color: white;
+    background: linear-gradient(180deg,#007BFF,#42a5f5);
+    background-color: rgba(0, 0, 0, 0);
+    background-color: #1976d2;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;

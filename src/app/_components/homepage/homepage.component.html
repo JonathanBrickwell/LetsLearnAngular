@@ -1,10 +1,11 @@
 <app-header></app-header>
 
+<!-- Masthead -->
 <div class="masthead">
     <div class="container h-100">
         <div class="row h-100 align-items-center">
         <div class="col-12 text-center">
-            <h1 class="font-weight-light">Angular website for Angular developers</h1>
+            <h1 class="font-weight-bold"><b>Angular website for Angular developers</b></h1>
             <p class="lead">...and those yearning to become one.</p>
         </div>
         </div>
@@ -14,8 +15,13 @@
 <!-- Page Content -->
 <section class="py-5">
     <div class="container">
-      <h2 class="font-weight-light">Page Content</h2>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus ab nulla dolorum autem nisi officiis blanditiis voluptatem hic, assumenda aspernatur facere ipsam nemo ratione cumque magnam enim fugiat reprehenderit expedita.</p>
+      <h2 class="font-weight-light">Welcome to Angular Learning Hub!</h2>
+      <p>(that's a bad name...it's a work in progress...)</p>
+      <p>This project started as an initiative to learn more about <b>Angular</b> and share that knowledge with everyone. As they say, learning is teaching!</p>
+      <p>I will do my best to deliver short & concise but knowledgeable & useful <b>Angular</b> tips in the form of a blog on a weekly basis.</p>
+      <p>Further functionalities will be added as the time goes by, most important of all I'd like to develop a comment section or some contact form where you can reach me directly and give me your advice on improving the user experience on this website!</p>
+      <p>I hope you'll enjoy your time here & that this humble, yet enthusiastic website can offer you something useful.</p>
+      <p>Cheers!</p>
     </div>
 </section>  
 
@@ -24,10 +30,10 @@
     <!-- Page Heading -->
     <h2 class="my-4">Blog posts</h2>
     <!-- Project One -->
-    <div class="row" *ngFor="let blog of blogs">
+    <div class="row pb-3" *ngFor="let blog of blogs">
         <div class="col-md-7">
             <a href="#">
-                <img class="img-fluid rounded mb-3 mb-md-0" src="http://placehold.it/700x300" alt="">
+                <img class="img-fluid rounded mb-3 mb-md-0" src="{{ blog.bg }}" alt="">
             </a>
         </div>
         <div class="col-md-5">
