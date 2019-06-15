@@ -14,7 +14,7 @@ export class BlogPostComponent implements OnInit {
 
   ngOnInit() {
     this.selectedBlogService.selectedID.subscribe(id => this.id = id);
-    console.log(this.id);
+    console.log("Ovo je blog post id: " + this.id);
   }
 
 }
