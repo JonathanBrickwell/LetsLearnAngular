@@ -8,6 +8,9 @@ import { FooterComponent } from './_components/footer/footer.component';
 import { HomepageComponent } from './_components/homepage/homepage.component';
 import { HttpClientModule } from '@angular/common/http';
 
+/* NGX Bootstrap Modules */
+import { BsDropdownModule } from 'ngx-bootstrap/dropdown'; 
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -18,7 +21,8 @@ import { HttpClientModule } from '@angular/common/http';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HttpClientModule
+    HttpClientModule,
+    BsDropdownModule.forRoot()
   ],
   providers: [],
   bootstrap: [AppComponent]
