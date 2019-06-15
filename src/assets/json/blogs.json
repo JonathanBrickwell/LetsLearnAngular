@@ -1,14 +1,14 @@
 [
     {
         "id": 1,
-        "name": "Prvi blog",
-        "content": "Ovo je prvi blog, kao takav je ovakav. Biti će bolji.",
+        "name": "Angular Application - First Steps",
+        "content": "Angular? When did geometry became so popular amongst developers? Why are all your friends suddenly interested in math? Oh, it's a javascript framework, you say? Never heard of it? Follow this short & sweet tutorial and make your first little Angular steps. Everything from installing node.js and Angular to creating your first component. Have fun!",
         "bg": "../../../assets/img/blog-posts/welcome-post.jpg"
     },
     {
         "id": 2,
-        "name": "Drugi blog",
-        "content": "Ovo je prvi blog, kao takav je ovakav. Biti će bolji.",
+        "name": "Bootstrap + Angular = <3",
+        "content": "Angular seems cool & practical, but you want to use those sweet benefits of your favorite css framework? Say no more, we got you covered fam. Introducing NGX Bootstrap, where all your favorite Bootstrap components are now powered by Angular. Take a look how to install it, modify it and finally use it! Have fun!",
         "bg": "../../../assets/img/blog-posts/2-bootstrap.jpg"
     }
 ]
