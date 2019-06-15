@@ -1,6 +1,10 @@
 @import 'variables';
 @import 'fonts';
 
+body {
+    font-family:'Roboto', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
 #navbarTogglerDemo01 {
     padding-top:1.5rem;
     padding-bottom:1.5rem;
@@ -34,3 +38,18 @@
         background-color: $hover;
     }
 }
+
+.footer-component {
+    background-color: $navbar_background;
+    color: #ffffff;
+    font-family:'Roboto', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.masthead {
+    height: 100vh;
+    min-height: 500px;
+    background-image: url('https://source.unsplash.com/BtbjCFUvBXs/1920x1080');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }

@@ -1,8 +1,8 @@
-<nav class="navbar navbar-expand-lg">
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+<nav class="navbar navbar-expand-lg navbar-dark">
+  <button class="navbar-toggler" type="button" (click)="toggleNavbar()">
     <span class="navbar-toggler-icon"></span>
   </button>
-  <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+  <div class="collapse navbar-collapse" [ngClass]="{ 'show': navbarOpen }" id="navbarTogglerDemo01">
     <a class="navbar-brand" href="#">
       <img src="../../../assets/img/angular_logo-min.png" width="150" height="40" class="d-inline-block align-top img-fluid" alt="Angular Logo">
     </a>
