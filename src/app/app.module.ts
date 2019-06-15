@@ -9,14 +9,18 @@ import { HomepageComponent } from './_components/homepage/homepage.component';
 import { HttpClientModule } from '@angular/common/http';
 
 /* NGX Bootstrap Modules */
-import { BsDropdownModule } from 'ngx-bootstrap/dropdown'; 
+import { BsDropdownModule } from 'ngx-bootstrap/dropdown';
+import { AboutComponent } from './_components/about/about.component';
+import { BlogPostComponent } from './_components/blog-post/blog-post.component'; 
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
     FooterComponent,
-    HomepageComponent
+    HomepageComponent,
+    AboutComponent,
+    BlogPostComponent
   ],
   imports: [
     BrowserModule,
