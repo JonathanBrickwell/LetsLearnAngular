@@ -5,7 +5,8 @@ export class Blogs {
     constructor(
         public id: number,
         public name: string,
-        public content: string
+        public content: string,
+        public bg: string,
     ) {}
 }
 
@@ -19,7 +20,8 @@ export class BlogsAdapterContainer implements BlogsAdapter<Blogs> {
         return new Blogs(
           item.id,
           item.name,
-          item.content
+          item.content,
+          item.bg
         );
       }
 }
