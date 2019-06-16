@@ -3,8 +3,8 @@
 <!-- Page Content -->
 <div class="container blog-post-content">
   <div class="card border-0 shadow my-5">
-    <div class="card-body p-5">
-      <h1 class="font-weight-light">{{ id }} - Fixed Full Page Background Image</h1>
+    <div class="card-body p-5" *ngFor="let blog of blogFound">
+      <h1 class="font-weight-light">{{ blog.id }} - {{ blog.name }}</h1>
       <p class="lead">In this snippet, the background image is fixed to the body element. Content on the page will scroll, but the image will remain in a fixed position!</p>
       <p class="lead">Scroll down...</p>
       <div style="height: 700px"></div>

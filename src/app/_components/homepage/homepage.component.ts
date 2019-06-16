@@ -22,12 +22,10 @@ export class HomepageComponent implements OnInit {
 
   ngOnInit() {
 
-    this.selectedBlog.selectedID.subscribe(blogID => this.blogID = blogID);
-
     this.blogsService.getAllBlogs().subscribe((blogs: Blogs[]) => {
       this.blogs = blogs;
-      console.log(blogs);
     });
+
   }
 
   getBlogID(id: number) {
