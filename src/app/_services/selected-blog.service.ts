@@ -15,6 +15,5 @@ export class SelectedBlogService {
 
   getBlogID(id: number) {
     this.blogID.next(id);
-    console.log(this.blogID);
   }
 }
